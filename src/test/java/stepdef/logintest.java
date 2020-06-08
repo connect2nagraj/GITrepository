@@ -12,11 +12,6 @@ public void user_should_be_on_login_page() throws Throwable {
    
 }
 
-@Then("^user invalid \"([^\"]*)\"$")
-public void user_invalid(String username) throws Throwable {
-	System.out.println(username + " this is");
-    
-}
 
 @Then("^user enters invalid \"([^\"]*)\"$")
 public void user_enters_invalid(String password) throws Throwable {
