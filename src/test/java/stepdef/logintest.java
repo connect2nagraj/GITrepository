@@ -10,12 +10,9 @@ public class logintest {
 @Given("^user should be on login page$")
 public void user_should_be_on_login_page() throws Throwable {
    
-}
 
 
-@Then("^user enters invalid \"([^\"]*)\"$")
-public void user_enters_invalid(String password) throws Throwable {
-	System.out.println(password + "  yes this");
+
 }
 
 @Then("^user clicks on login button$")
